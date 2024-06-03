@@ -1,0 +1,152 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+    color: black;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.hero-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.container img{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.nav{
+    margin-left:5px;
+    display: flex;
+    gap: 3rem;
+}
+
+.cta-button {
+    background-color: #010a13;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+.cta-button:hover {
+    background-color: #003f7d;
+}
+
+/* Features Section */
+.features-section, .gallery-section, .testimonials-section, .pricing-section, .contact-section {
+    padding: 50px 20px;
+    background: white;
+    text-align: center;
+}
+
+.feature, .testimonial, .pricing-plan {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* Gallery Section */
+.screenshot {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+}
+
+/* Pricing Section */
+.pricing-plan {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.pricing-plan h3 {
+    font-size: 1.5rem;
+}
+
+.pricing-plan p {
+    font-size: 1.2rem;
+}
+
+.pricing-plan ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pricing-plan li {
+    margin: 5px 0;
+}
+
+/* Contact Section */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0070f3;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #005bb5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .screenshot {
+        width: 90%;
+        max-width: none;
+    }
+
+    .contact-form input, .contact-form textarea {
+        width: 90%;
+    }
+}
